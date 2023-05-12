@@ -1,0 +1,103 @@
+/* Styles for header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+  a.change:hover{
+  color: #333; /* Меняем цвет текста */
+}
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  nav ul li:hover {
+    background-color: #FFF;
+    border-radius: 5px;
+  }
+  
+  nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Styles for container */
+  .container {
+    max-width: 960px;
+    margin: 100px auto 0 auto;
+    padding: 0 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #008CBA;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Styles for header on mobile devices */
+    header {
+      padding: 10px;
+    }
+    
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    
+    /* Styles for container on mobile devices */
+    .container {
+      margin-top: 80px;
+      padding: 0;
+    }
+      
+    h1 {
+      font-size: 28px;
+    }
+      
+    p {
+      font-size: 16px;
+    }
+      
+    .price {
+      font-size: 20px;
+    }
+      
+    button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
